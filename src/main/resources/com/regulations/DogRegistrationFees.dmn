@@ -13,7 +13,20 @@ else
     then
       WorkingCalc
     else
-      0
+      if
+        InitialRegistration
+      then
+        (
+          if
+            AdoptedThisYear
+          then
+            AdoptedCalc
+          else
+            0
+        )
+      else
+        0
+
 
 
 
