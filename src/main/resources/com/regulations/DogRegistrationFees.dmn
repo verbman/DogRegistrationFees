@@ -67,7 +67,7 @@ else
 </dmn:text></dmn:literalExpression></dmn:decision><dmn:businessKnowledgeModel id="_15E803ED-BB6C-488A-A487-5DC6EF5C56B9" name="BaseFee"><dmn:extensionElements/><dmn:variable id="_7ECF052C-0714-4A53-BAD1-457A9E0093CC" name="BaseFee" typeRef="number"/><dmn:encapsulatedLogic id="_61A8E08B-470D-4CC0-8459-CAEFED048197" kind="FEEL"><dmn:literalExpression id="_ECD91EAC-851A-4979-B493-BCEC319D16E2"><dmn:text>176</dmn:text></dmn:literalExpression></dmn:encapsulatedLogic></dmn:businessKnowledgeModel><dmn:decision id="_4BA08191-7F62-459C-ACFC-83E74C54B9CF" name="InitialRegistration"><dmn:extensionElements/><dmn:variable id="_2A805F90-7941-47B0-99E7-CC119838DF2B" name="InitialRegistration" typeRef="boolean"/><dmn:informationRequirement id="_14418023-C80E-4AB2-89DC-18B2F13BC315"><dmn:requiredInput href="#_A73953C7-999E-4818-8AF6-7BD8F1B96D62"/></dmn:informationRequirement><dmn:informationRequirement id="_C45D0500-4C49-4751-A4BF-008889CAD7A8"><dmn:requiredInput href="#_9597D4C0-2429-4EFB-A9DC-F1FB896F1FB7"/></dmn:informationRequirement><dmn:informationRequirement id="_90BEFB08-5AE0-4F2A-B3F6-3E4AED9EC12F"><dmn:requiredDecision href="#_6C3ADB62-F64F-4DC9-9F9F-AAF2EBC52B1B"/></dmn:informationRequirement><dmn:informationRequirement id="_4901A77B-01E6-45F9-9B66-A9CDBF4816F8"><dmn:requiredDecision href="#_AC59AAF3-7F26-42D7-AB0F-816BD22F1F7D"/></dmn:informationRequirement><dmn:literalExpression id="_0BF89DE5-1FC0-4848-8E66-81C0AFCD9B83"><dmn:text>( DogDOB.year = ApplicableYear and (DogDOB.month + 3) &gt; 6 ) or
 ( DogDOB.year = (ApplicableYear+1) and (DogDOB.month + 3) &lt; 7 ) or
 AdoptedThisYear or
-
+ImportedThisYear
 
 
 
