@@ -51,7 +51,10 @@ RegistrationDate.year &gt;= ApplicableYear
 
 
   </dmn:text></dmn:literalExpression></dmn:decision><dmn:decision id="_AE1D87E9-691E-4371-AB8B-D92B4C4AC9B8" name="PuppyCalc"><dmn:extensionElements/><dmn:variable id="_2204D8F4-EE13-4BF4-B35F-8D20789B8EE5" name="PuppyCalc" typeRef="number"/><dmn:informationRequirement id="_DA1BF62C-634A-432E-BA96-F44BAD9228B8"><dmn:requiredDecision href="#_4A6A8695-58DE-4A56-8514-32D74A6F6F86"/></dmn:informationRequirement><dmn:informationRequirement id="_8DEC42E7-23A7-453A-9DAA-6D5DB7EACE82"><dmn:requiredDecision href="#_4BA08191-7F62-459C-ACFC-83E74C54B9CF"/></dmn:informationRequirement><dmn:informationRequirement id="_89916CCE-D7F9-4EEB-9EC5-D628FF4FEE12"><dmn:requiredDecision href="#_6C3ADB62-F64F-4DC9-9F9F-AAF2EBC52B1B"/></dmn:informationRequirement><dmn:informationRequirement id="_49F76C1F-5E25-4670-9A46-680381671EA7"><dmn:requiredDecision href="#_AC59AAF3-7F26-42D7-AB0F-816BD22F1F7D"/></dmn:informationRequirement><dmn:knowledgeRequirement id="_5B254B82-38FD-4A89-BA01-82A2799629CA"><dmn:requiredKnowledge href="#_908D11C6-C42E-4602-92AA-8C9D7D412115"/></dmn:knowledgeRequirement><dmn:literalExpression id="_F7376DA8-E3F3-440D-A14D-0A629A8CE24E"><dmn:text>if
-  InitialRegistration and ActualRegistrationDate != null and not(ImportedThisYear) and not(AdoptedThisYear)
+  InitialRegistration and 
+  ActualRegistrationDate != null and 
+  not(ImportedThisYear) and 
+  not(AdoptedThisYear)
 then
   PuppyAndImported(ActualRegistrationDate.month)
 else
