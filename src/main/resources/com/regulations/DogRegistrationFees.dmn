@@ -22,7 +22,12 @@ else
           then
             AdoptedCalc
           else
-            0
+            if
+              AdoptedThisYear
+            then
+              AdoptedCalc
+            else
+              0
             
         )
       else
