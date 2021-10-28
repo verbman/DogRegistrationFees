@@ -3,7 +3,12 @@
 then
   BaseFee()*1.5
 else 
-  0
+  if
+    DisabilityAssist
+  then
+    0
+  else
+    0
 
 
 
