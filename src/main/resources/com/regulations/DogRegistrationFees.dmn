@@ -27,7 +27,7 @@ else
             then
               ImportedCalc
             else
-              PuppyCalc - DesexDiscount
+              ( PuppyCalc - DesexDiscount )
         )
       else
         0
