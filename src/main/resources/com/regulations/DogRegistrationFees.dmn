@@ -22,7 +22,12 @@ else
           then
             AdoptedCalc
           else
-            0
+            if
+              ImportedThisYear
+            then
+              ImportedCalc
+            else
+              PuppyCalc - DesexDiscount
         )
       else
         0
