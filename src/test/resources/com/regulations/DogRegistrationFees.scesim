@@ -3,7 +3,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Index</name>
             <type>OTHER</type>
@@ -15,9 +15,10 @@
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>Description</name>
             <type>OTHER</type>
@@ -29,9 +30,10 @@
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>AdoptionDate</step>
             </ExpressionElement>
@@ -49,9 +51,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>ApplicableYear</step>
             </ExpressionElement>
@@ -69,9 +72,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>CurrentRegoOtherCouncil</step>
             </ExpressionElement>
@@ -89,9 +93,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Dangerous</step>
             </ExpressionElement>
@@ -109,9 +114,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Desexed</step>
             </ExpressionElement>
@@ -129,9 +135,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>DisabilityAssist</step>
             </ExpressionElement>
@@ -149,9 +156,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>DogDOB</step>
             </ExpressionElement>
@@ -169,9 +177,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>ImportedDate</step>
             </ExpressionElement>
@@ -189,9 +198,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>OwnerRDO</step>
             </ExpressionElement>
@@ -209,9 +219,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>RegistrationDate</step>
             </ExpressionElement>
@@ -229,9 +240,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>TransferIn</step>
             </ExpressionElement>
@@ -249,9 +261,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>Working</step>
             </ExpressionElement>
@@ -269,9 +282,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>ActualRegistrationDate</step>
             </ExpressionElement>
@@ -289,9 +303,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>AdoptedCalc</step>
             </ExpressionElement>
@@ -309,9 +324,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>AdoptedThisYear</step>
             </ExpressionElement>
@@ -329,9 +345,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>DesexDiscount</step>
             </ExpressionElement>
@@ -349,9 +366,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>ImportedCalc</step>
             </ExpressionElement>
@@ -369,9 +387,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>ImportedThisYear</step>
             </ExpressionElement>
@@ -389,9 +408,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>InitialRegistration</step>
             </ExpressionElement>
@@ -409,9 +429,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>LateRegistration</step>
             </ExpressionElement>
@@ -429,9 +450,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>LicenseFee</step>
             </ExpressionElement>
@@ -449,9 +471,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>PuppyCalc</step>
             </ExpressionElement>
@@ -469,9 +492,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>StandardCalc</step>
             </ExpressionElement>
@@ -489,9 +513,10 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements class="linked-list">
+          <expressionElements>
             <ExpressionElement>
               <step>WorkingCalc</step>
             </ExpressionElement>
@@ -509,10 +534,11 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <Scenario>
         <factMappingValues>
           <FactMappingValue>
@@ -544,6 +570,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">2020</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -564,6 +591,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -574,6 +602,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -584,6 +613,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -594,6 +624,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">date(&quot;2018-01-01&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -614,6 +645,7 @@
               <name>1|9</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -624,6 +656,7 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">date(&quot;2020-07-01&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -644,6 +677,7 @@
               <name>1|12</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -734,6 +768,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -765,6 +800,17 @@
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
     </scesimData>
@@ -773,7 +819,7 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements class="linked-list"/>
+          <expressionElements/>
           <expressionIdentifier>
             <name>1|1</name>
             <type>GIVEN</type>
@@ -786,10 +832,11 @@
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
-    <scesimData class="linked-list">
+    <scesimData>
       <BackgroundData>
         <factMappingValues>
           <FactMappingValue>
