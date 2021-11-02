@@ -1710,7 +1710,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Paul Test Case 1 - Puppy born May -not desexed</rawValue>
+            <rawValue class="string">Paul Test Case 1 (147.20) - Puppy born May -not desexed</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
