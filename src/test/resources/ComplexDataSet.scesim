@@ -56,7 +56,7 @@
             <string>Boundaries</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>202.20000000000002</columnWidth>
+          <columnWidth>168.50000000000003</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -82,7 +82,7 @@
             <string>Owners</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>202.20000000000002</columnWidth>
+          <columnWidth>168.50000000000003</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -103,7 +103,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>202.20000000000002</columnWidth>
+          <columnWidth>168.50000000000003</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -124,7 +124,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>202.20000000000002</columnWidth>
+          <columnWidth>168.50000000000003</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -144,7 +144,23 @@
           <factAlias>Filter</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>202.20000000000002</columnWidth>
+          <columnWidth>168.50000000000003</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1636064439447</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 7</factAlias>
+          <expressionAlias>PROPERTY 7</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>168.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -226,7 +242,17 @@
               <name>1636064267590</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1636064439447</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
