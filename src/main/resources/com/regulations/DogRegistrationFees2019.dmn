@@ -4,19 +4,20 @@ then
   if
     AdoptedThisYear
   then
-    AdoptionDate
+    
+    date(AdoptionDate.year, AdoptionDate.month, 1)
   else
     if
       ImportedThisYear
     then
-      ImportedDate
+      date(ImportedDate.year, ImportedDate.month, 1)
     else
       if
-        (DogDOB.month+3) &gt; 12
+        (DogDOB.month+4) &gt; 12
       then
-        date(DogDOB.year+1, DogDOB.month-9, 1)
+        date(DogDOB.year+1, DogDOB.month-8, 1)
       else
-        date(DogDOB.year, DogDOB.month+3, 1)
+        date(DogDOB.year, DogDOB.month+4, 1)
 else
   date(ApplicableYear, 7, 1)
 
