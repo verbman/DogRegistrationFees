@@ -116,7 +116,12 @@ else
             then
               ImportedCalc
             else
-              PuppyCalc - DesexDiscount
+              if 
+                DesexDiscount = null 
+              then
+                PuppyCalc
+              else
+                PuppyCalc - DesexDiscount
             
         )
       else
