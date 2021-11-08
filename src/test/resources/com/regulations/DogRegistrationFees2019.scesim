@@ -2870,7 +2870,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Imported Dog</rawValue>
+            <rawValue class="string">Test 6 - Imported Dog</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -2925,7 +2925,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
