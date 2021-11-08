@@ -917,7 +917,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-05-15&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-01-15&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
