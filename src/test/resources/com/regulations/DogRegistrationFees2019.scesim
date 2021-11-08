@@ -1941,7 +1941,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">132.8</rawValue>
+            <rawValue class="string">62.75</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1952,7 +1952,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">132.8</rawValue>
+            <rawValue class="string">62.75</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
