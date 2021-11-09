@@ -6060,7 +6060,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 15 -Working Puppy</rawValue>
+            <rawValue class="string">Test 15 -Working Puppy registered before 1 August</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6192,7 +6192,7 @@
               <name>1|12</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6291,7 +6291,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">147.2</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6302,7 +6302,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">147.2</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6324,7 +6324,7 @@
               <name>1|24</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6350,7 +6350,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 16 - (85.90) - Puppy born July 21 -desexed</rawValue>
+            <rawValue class="string">Test 16 - Working puppy registered after 1 August</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6372,7 +6372,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">2020</rawValue>
+            <rawValue class="string">2021</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6427,7 +6427,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-07-17&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-05-01&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6460,7 +6460,7 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-09-29&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-08-29&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6482,7 +6482,7 @@
               <name>1|12</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
