@@ -6060,7 +6060,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Paul Test Case 1 (147.20) - Puppy born May -not desexed</rawValue>
+            <rawValue class="string">Test 15 - (147.20) - Puppy born May -not desexed</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6350,7 +6350,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Paul Test Case 1 (85.90) - Puppy born July 21 -desexed</rawValue>
+            <rawValue class="string">Test 16 - (85.90) - Puppy born July 21 -desexed</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6640,7 +6640,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Adopted Puppy</rawValue>
+            <rawValue class="string">Test 17 - Adopted Puppy</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
