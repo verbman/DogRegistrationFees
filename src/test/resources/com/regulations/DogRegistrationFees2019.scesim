@@ -3740,7 +3740,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 8 - Puppy - not neutered and no RDO</rawValue>
+            <rawValue class="string">Test 8 - Puppy - Neutered and no RDO</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
