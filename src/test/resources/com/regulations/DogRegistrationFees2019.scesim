@@ -4463,7 +4463,7 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-09-27&quot;)</rawValue>
+            <rawValue class="string">date( &quot;2021-08-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4753,7 +4753,7 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-09-15&quot;)</rawValue>
+            <rawValue class="string">date( &quot;2021-09-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
