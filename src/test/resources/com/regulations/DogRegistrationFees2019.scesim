@@ -7800,7 +7800,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 21 - Adult working dog &quot;adopted&quot;- registered &lt; 1 Aug - July Registration</rawValue>
+            <rawValue class="string">Test 21 - Adult working dog &quot;adopted&quot;- Added RDO and Desex</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7899,7 +7899,7 @@
               <name>1|9</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
