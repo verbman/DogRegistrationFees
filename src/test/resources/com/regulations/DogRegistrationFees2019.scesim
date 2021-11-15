@@ -287,26 +287,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>FirstRegistration</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1636938524166</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>FirstRegistration</name>
-            <className>FirstRegistration</className>
-          </factIdentifier>
-          <className>boolean</className>
-          <factAlias>FirstRegistration</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>ActualRegistrationDate</step>
             </ExpressionElement>
           </expressionElements>
@@ -847,17 +827,6 @@
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1147,17 +1116,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1449,17 +1407,6 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1749,16 +1696,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2050,16 +1987,6 @@
             </expressionIdentifier>
             <rawValue class="string">5</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -2349,16 +2276,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">6</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2650,16 +2567,6 @@
             </expressionIdentifier>
             <rawValue class="string">7</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -2949,16 +2856,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">8</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3250,16 +3147,6 @@
             </expressionIdentifier>
             <rawValue class="string">9</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -3549,16 +3436,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">10</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3850,16 +3727,6 @@
             </expressionIdentifier>
             <rawValue class="string">11</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -4149,16 +4016,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">12</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -4450,16 +4307,6 @@
             </expressionIdentifier>
             <rawValue class="string">13</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -4749,16 +4596,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">14</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -5050,16 +4887,6 @@
             </expressionIdentifier>
             <rawValue class="string">15</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -5349,16 +5176,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">16</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -5650,16 +5467,6 @@
             </expressionIdentifier>
             <rawValue class="string">17</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -5949,16 +5756,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">18</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -6250,16 +6047,6 @@
             </expressionIdentifier>
             <rawValue class="string">19</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -6549,16 +6336,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">20</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -6850,16 +6627,6 @@
             </expressionIdentifier>
             <rawValue class="string">21</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -7149,16 +6916,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">22</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -7450,16 +7207,6 @@
             </expressionIdentifier>
             <rawValue class="string">23</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -7749,16 +7496,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">24</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -8050,16 +7787,6 @@
             </expressionIdentifier>
             <rawValue class="string">25</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -8349,16 +8076,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">26</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -8650,16 +8367,6 @@
             </expressionIdentifier>
             <rawValue class="string">27</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -8949,16 +8656,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">28</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -9250,16 +8947,6 @@
             </expressionIdentifier>
             <rawValue class="string">29</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -9549,16 +9236,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">30</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -9850,16 +9527,6 @@
             </expressionIdentifier>
             <rawValue class="string">31</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -10149,16 +9816,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">32</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -10450,16 +10107,6 @@
             </expressionIdentifier>
             <rawValue class="string">33</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -10749,16 +10396,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">34</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -11050,16 +10687,6 @@
             </expressionIdentifier>
             <rawValue class="string">35</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -11350,16 +10977,6 @@
             </expressionIdentifier>
             <rawValue class="string">36</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -11649,16 +11266,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">37</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>FirstRegistration</name>
-              <className>FirstRegistration</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1636938524166</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
