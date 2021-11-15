@@ -16,7 +16,12 @@ then
       then
         date(DogDOB.year+1, DogDOB.month-8, 1)
       else
-        date(DogDOB.year, DogDOB.month+4, 1)
+        if 
+          (DogDOB.month + 4) &gt;= 5 and (DogDOB.month + 4) &lt;= 6
+        then
+          date(DogDOB.year+1, 7, 1)
+        else
+          date(DogDOB.year, DogDOB.month+4, 1)
 else
   date(ApplicableYear, 7, 1)
 
