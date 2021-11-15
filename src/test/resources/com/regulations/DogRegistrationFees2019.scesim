@@ -291,14 +291,14 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1636930249915</name>
+            <name>1636938524166</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
             <name>FirstRegistration</name>
             <className>FirstRegistration</className>
           </factIdentifier>
-          <className>Any</className>
+          <className>boolean</className>
           <factAlias>FirstRegistration</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -647,7 +647,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-01-10&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2020-12-10&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -680,7 +680,7 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-09-04&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-09-26&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -853,10 +853,10 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -871,7 +871,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">TEST 1b Late registration - non neutered and non RDO</rawValue>
+            <rawValue class="string">TEST 1b Year Late registration - non neutered and non RDO  (Not billed current system)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -948,7 +948,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-01-10&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2020-12-10&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -981,7 +981,7 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-09-04&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-09-26&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1154,7 +1154,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
@@ -1172,7 +1172,308 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">TEST 2a Early registration Puppy &gt;4 months - No RDO - not Neutered</rawValue>
+            <rawValue class="string">TEST 1c Registration in year - non neutered and non RDO</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptionDate</name>
+              <className>AdoptionDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ApplicableYear</name>
+              <className>ApplicableYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">2020</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>CurrentRegoOtherCouncil</name>
+              <className>CurrentRegoOtherCouncil</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Dangerous</name>
+              <className>Dangerous</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Desexed</name>
+              <className>Desexed</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DisabilityAssist</name>
+              <className>DisabilityAssist</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DogDOB</name>
+              <className>DogDOB</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">date(&quot;2020-12-10&quot;)</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedDate</name>
+              <className>ImportedDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>OwnerRDO</name>
+              <className>OwnerRDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>RegistrationDate</name>
+              <className>RegistrationDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|10</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">date(&quot;2021-04-26&quot;)</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>TransferIn</name>
+              <className>TransferIn</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Working</name>
+              <className>Working</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ActualRegistrationDate</name>
+              <className>ActualRegistrationDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">date( &quot;2021-04-01&quot; )</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptedCalc</name>
+              <className>AdoptedCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|14</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptedThisYear</name>
+              <className>AdoptedThisYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|15</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DesexDiscount</name>
+              <className>DesexDiscount</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|16</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedCalc</name>
+              <className>ImportedCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|17</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedThisYear</name>
+              <className>ImportedThisYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>InitialRegistration</name>
+              <className>InitialRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>LateRegistration</name>
+              <className>LateRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>LicenseFee</name>
+              <className>LicenseFee</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">46.5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>PuppyCalc</name>
+              <className>PuppyCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">46.5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>StandardCalc</name>
+              <className>StandardCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|23</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>WorkingCalc</name>
+              <className>WorkingCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|24</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FirstRegistration</name>
+              <className>FirstRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1636938524166</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">TEST Early registration Puppy &gt;4 months - No RDO - not Neutered</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1249,7 +1550,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-01-15&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2020-12-15&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1282,7 +1583,307 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-05-20&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-03-26&quot;)</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>TransferIn</name>
+              <className>TransferIn</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Working</name>
+              <className>Working</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ActualRegistrationDate</name>
+              <className>ActualRegistrationDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">date( &quot;2021-04-01&quot; )</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptedCalc</name>
+              <className>AdoptedCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|14</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptedThisYear</name>
+              <className>AdoptedThisYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|15</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DesexDiscount</name>
+              <className>DesexDiscount</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|16</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedCalc</name>
+              <className>ImportedCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|17</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedThisYear</name>
+              <className>ImportedThisYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>InitialRegistration</name>
+              <className>InitialRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>LateRegistration</name>
+              <className>LateRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>LicenseFee</name>
+              <className>LicenseFee</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">46.5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>PuppyCalc</name>
+              <className>PuppyCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">46.5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>StandardCalc</name>
+              <className>StandardCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|23</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>WorkingCalc</name>
+              <className>WorkingCalc</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|24</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FirstRegistration</name>
+              <className>FirstRegistration</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1636938524166</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">TEST 2a May-June case - Puppy &gt;4 months - No RDO - not Neutered (Not billed current system)</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>AdoptionDate</name>
+              <className>AdoptionDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ApplicableYear</name>
+              <className>ApplicableYear</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">2020</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>CurrentRegoOtherCouncil</name>
+              <className>CurrentRegoOtherCouncil</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Dangerous</name>
+              <className>Dangerous</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Desexed</name>
+              <className>Desexed</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DisabilityAssist</name>
+              <className>DisabilityAssist</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>DogDOB</name>
+              <className>DogDOB</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">date(&quot;2021-02-15&quot;)</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>ImportedDate</name>
+              <className>ImportedDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>OwnerRDO</name>
+              <className>OwnerRDO</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>RegistrationDate</name>
+              <className>RegistrationDate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|10</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">date(&quot;2021-06-26&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1381,7 +1982,7 @@
               <name>1|19</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1403,7 +2004,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">17.8</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1414,7 +2015,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">17.8</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1425,7 +2026,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1447,7 +2048,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1455,10 +2056,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1473,7 +2073,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">TEST 2b May-June case - Puppy &gt;4 months - No RDO - not Neutered</rawValue>
+            <rawValue class="string">TEST 2b  May-June case - Puppy &gt;4 months - No RDO - not Neutered</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1495,7 +2095,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">2020</rawValue>
+            <rawValue class="string">2021</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1550,7 +2150,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-01-15&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-02-15&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1583,7 +2183,7 @@
               <name>1|10</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-05-20&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-06-26&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1616,7 +2216,7 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-05-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2021-07-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1704,7 +2304,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">32.1</rawValue>
+            <rawValue class="string">176</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1715,7 +2315,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">32.1</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1726,7 +2326,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">176</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1748,7 +2348,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">4</rawValue>
+            <rawValue class="string">6</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1756,10 +2356,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2049,7 +2648,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">5</rawValue>
+            <rawValue class="string">7</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -2057,10 +2656,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2350,7 +2948,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">6</rawValue>
+            <rawValue class="string">8</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -2358,10 +2956,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2651,7 +3248,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">7</rawValue>
+            <rawValue class="string">9</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -2659,10 +3256,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -2952,7 +3548,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">8</rawValue>
+            <rawValue class="string">10</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -2960,10 +3556,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3253,7 +3848,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">9</rawValue>
+            <rawValue class="string">11</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -3261,10 +3856,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3554,7 +4148,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string">12</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -3562,10 +4156,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -3855,7 +4448,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">11</rawValue>
+            <rawValue class="string">13</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -3863,10 +4456,9 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -4156,7 +4748,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">12</rawValue>
+            <rawValue class="string">14</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4164,7 +4756,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -4456,7 +5048,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">13</rawValue>
+            <rawValue class="string">15</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4464,7 +5056,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -4756,7 +5348,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">14</rawValue>
+            <rawValue class="string">16</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4764,7 +5356,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -5056,7 +5648,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">15</rawValue>
+            <rawValue class="string">17</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5064,7 +5656,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -5356,7 +5948,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">16</rawValue>
+            <rawValue class="string">18</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5364,7 +5956,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -5656,7 +6248,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">17</rawValue>
+            <rawValue class="string">19</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5664,7 +6256,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -5956,7 +6548,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">18</rawValue>
+            <rawValue class="string">20</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5964,7 +6556,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -6256,7 +6848,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">19</rawValue>
+            <rawValue class="string">21</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6264,7 +6856,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -6556,7 +7148,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">20</rawValue>
+            <rawValue class="string">22</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6564,7 +7156,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -6856,7 +7448,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">21</rawValue>
+            <rawValue class="string">23</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -6864,7 +7456,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -7156,7 +7748,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">22</rawValue>
+            <rawValue class="string">24</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7164,7 +7756,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -7456,7 +8048,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">23</rawValue>
+            <rawValue class="string">25</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7464,7 +8056,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -7756,7 +8348,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">24</rawValue>
+            <rawValue class="string">26</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7764,7 +8356,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -8056,7 +8648,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">25</rawValue>
+            <rawValue class="string">27</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -8064,7 +8656,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -8356,7 +8948,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">26</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -8364,7 +8956,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -8656,7 +9248,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">27</rawValue>
+            <rawValue class="string">29</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -8664,7 +9256,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -8956,7 +9548,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">28</rawValue>
+            <rawValue class="string">30</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -8964,7 +9556,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -9256,7 +9848,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">29</rawValue>
+            <rawValue class="string">31</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -9264,7 +9856,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -9556,7 +10148,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">30</rawValue>
+            <rawValue class="string">32</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -9564,7 +10156,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -9856,7 +10448,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">31</rawValue>
+            <rawValue class="string">33</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -9864,7 +10456,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -10156,7 +10748,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">32</rawValue>
+            <rawValue class="string">34</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10164,7 +10756,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -10456,7 +11048,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">33</rawValue>
+            <rawValue class="string">35</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10464,7 +11056,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -10756,7 +11348,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">34</rawValue>
+            <rawValue class="string">36</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10764,7 +11356,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
@@ -11056,7 +11648,7 @@
               <name>Index</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">35</rawValue>
+            <rawValue class="string">37</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -11064,7 +11656,7 @@
               <className>FirstRegistration</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1636930249915</name>
+              <name>1636938524166</name>
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
