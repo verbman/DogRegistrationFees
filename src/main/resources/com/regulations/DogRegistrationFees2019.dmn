@@ -19,7 +19,7 @@ then
         if 
           (DogDOB.month + 4) &gt;= 5 and (DogDOB.month + 4) &lt;= 6
         then
-          date(DogDOB.year+1, 7, 1)
+          date(DogDOB.year, 7, 1)
         else
           date(DogDOB.year, DogDOB.month+4, 1)
 else
