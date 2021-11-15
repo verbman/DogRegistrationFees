@@ -1,7 +1,23 @@
 <?xml version="1.0" ?><dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_8D281A71-088E-4A59-9B5C-E08A584175BD" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_0B0366DB-4794-4CC4-966D-5F2C271094EC" name="DogRegistrationFees" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_8D281A71-088E-4A59-9B5C-E08A584175BD"><dmn:extensionElements/><dmn:decision id="_4A6A8695-58DE-4A56-8514-32D74A6F6F86" name="ActualRegistrationDate"><dmn:extensionElements/><dmn:variable id="_3E3731C3-A623-4323-A0BB-9B7CCA98893C" name="ActualRegistrationDate" typeRef="date"/><dmn:informationRequirement id="_2E339DD3-89C6-4E90-B48C-B4D7BA345059"><dmn:requiredInput href="#_851AA7F6-E86C-4F36-BAFB-09DB53F6C8C9"/></dmn:informationRequirement><dmn:informationRequirement id="_0C8BC80D-54AA-43FA-B0D1-B329AEE38A5C"><dmn:requiredInput href="#_A73953C7-999E-4818-8AF6-7BD8F1B96D62"/></dmn:informationRequirement><dmn:informationRequirement id="_D81C9836-B1F4-4637-8AAF-0273ABD26749"><dmn:requiredDecision href="#_4BA08191-7F62-459C-ACFC-83E74C54B9CF"/></dmn:informationRequirement><dmn:informationRequirement id="_E2BB2A0B-0E8D-4AEF-97E4-435B13E8D1BA"><dmn:requiredDecision href="#_6C3ADB62-F64F-4DC9-9F9F-AAF2EBC52B1B"/></dmn:informationRequirement><dmn:informationRequirement id="_3BFA735C-8C22-416E-9FF2-236E704FE207"><dmn:requiredDecision href="#_AC59AAF3-7F26-42D7-AB0F-816BD22F1F7D"/></dmn:informationRequirement><dmn:informationRequirement id="_48C471D5-52E4-4114-A522-F45832E6F73D"><dmn:requiredInput href="#_84FAE929-24E7-4559-B0CA-F66CADFD6E3B"/></dmn:informationRequirement><dmn:informationRequirement id="_177CB10F-B4C2-4D71-A26F-165219D97F6B"><dmn:requiredInput href="#_D1C76E69-1331-49BF-9429-57408AAFD816"/></dmn:informationRequirement><dmn:informationRequirement id="_40C3B188-A4F8-4A71-842F-CAB05F1A1C03"><dmn:requiredInput href="#_9597D4C0-2429-4EFB-A9DC-F1FB896F1FB7"/></dmn:informationRequirement><dmn:literalExpression id="_1E87E323-0B9E-4994-B15E-76B9EE386779"><dmn:text>if
   InitialRegistration
 then
-  DogDOB
+  if
+    AdoptedThisYear
+  then
+    
+    date(AdoptionDate.year, AdoptionDate.month, 1)
+  else
+    if
+      ImportedThisYear
+    then
+      date(ImportedDate.year, ImportedDate.month, 1)
+    else
+      if
+        (DogDOB.month+4) &gt; 12
+      then
+        date(DogDOB.year+1, DogDOB.month-8, 1)
+      else
+        date(DogDOB.year, DogDOB.month+4, 1)
 else
   date(ApplicableYear, 7, 1)
 
