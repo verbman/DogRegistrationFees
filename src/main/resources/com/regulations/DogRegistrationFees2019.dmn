@@ -161,8 +161,10 @@ ImportedThisYear
 
 
   </dmn:text></dmn:literalExpression></dmn:decision><dmn:inputData id="_3B8D2C72-B972-45B7-8CA3-D8EF02BF5DDA" name="CurrentRegoOtherCouncil"><dmn:extensionElements/><dmn:variable id="_C60D8172-CB28-42E3-9467-A94A79944983" name="CurrentRegoOtherCouncil" typeRef="boolean"/></dmn:inputData><dmn:inputData id="_851AA7F6-E86C-4F36-BAFB-09DB53F6C8C9" name="RegistrationDate"><dmn:extensionElements/><dmn:variable id="_BFC77628-0F7A-47F2-907E-B398FCEC9B01" name="RegistrationDate" typeRef="date"/></dmn:inputData><dmn:decision id="_AC59AAF3-7F26-42D7-AB0F-816BD22F1F7D" name="ImportedThisYear"><dmn:extensionElements/><dmn:variable id="_E41412B6-65A0-452A-9A68-8B8AE4C69C65" name="ImportedThisYear" typeRef="boolean"/><dmn:informationRequirement id="_4E19D7F3-A373-42D5-B297-A5D1BEDA540B"><dmn:requiredInput href="#_9597D4C0-2429-4EFB-A9DC-F1FB896F1FB7"/></dmn:informationRequirement><dmn:informationRequirement id="_A9AB6894-15ED-4512-9A6D-D3D3D3C58D84"><dmn:requiredInput href="#_D1C76E69-1331-49BF-9429-57408AAFD816"/></dmn:informationRequirement><dmn:literalExpression id="_7D04275C-D69A-46D2-AA2E-61B367CB95C5"><dmn:text>ImportedDate != null and
-( ImportedDate.year = ApplicableYear and ImportedDate.month &gt; 6 ) or
-( ImportedDate.year = (ApplicableYear+1) and ImportedDate.month &lt; 7 )
+  (
+    ( ImportedDate.year = ApplicableYear and ImportedDate.month &gt; 6 ) or
+    ( ImportedDate.year = (ApplicableYear+1) and ImportedDate.month &lt; 7 )
+  )
 
 
 
