@@ -128,17 +128,19 @@ else
           if 
             DesexDiscount = null
           then
-            if
-              AdoptedThisYear
-            then
-              AdoptedCalc
-            else
+            (
               if
-                ImportedThisYear
+                AdoptedThisYear
               then
-                ImportedCalc
+                AdoptedCalc
               else
-                PuppyCalc
+                if
+                  ImportedThisYear
+                then
+                  ImportedCalc
+                else
+                  PuppyCalc
+            )
           else
             DesexDiscount
         )
