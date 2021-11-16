@@ -127,7 +127,7 @@ else
         StandardCalc
       else
         if 
-          true
+          DesexDiscount != null
         then
           DesexDiscount
         else
