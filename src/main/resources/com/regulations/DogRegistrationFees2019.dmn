@@ -67,7 +67,7 @@ RegistrationDate.year &gt;= ApplicableYear
   not(AdoptedThisYear)
 then
   if
-    PushNextYear(ActualRegistrationDate, ApplicableYear)
+    PushNextYear(ActualRegistrationDate, ApplicableYear) 
   then
     PuppyAndImported(ActualRegistrationDate.month, OwnerRDO)
   else
