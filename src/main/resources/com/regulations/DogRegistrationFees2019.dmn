@@ -64,14 +64,7 @@ RegistrationDate.year &gt;= ApplicableYear
   InitialRegistration and 
   ActualRegistrationDate != null and 
   not(ImportedThisYear) and 
-  not(AdoptedThisYear) and
-  (
-    DogDOB != null and
-    (
-      ( DogDOB.year = ApplicableYear and DogDOB.month + 4 &gt; 6 ) or
-      ( DogDOB.year = (ApplicableYear+1) and ( DogDOB.month + 4 &lt; 7 ) )
-    )
-  )
+  not(AdoptedThisYear)
 then
   if
     PushingNextYear(ActualRegistrationDate, ApplicableYear) 
