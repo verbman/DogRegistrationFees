@@ -219,7 +219,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>162.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -3964,7 +3964,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 6 - Imported Dog - Not Neutered (use import price)</rawValue>
+            <rawValue class="string">Test 6 - Imported Dog - Not Neutered (use import price) (changed actualregistrationdate)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4041,7 +4041,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2020-08-6&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2019-08-06&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4063,7 +4063,7 @@
               <name>1|9</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-08-6&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-08-06&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4129,7 +4129,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-07-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2021-08-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4195,7 +4195,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4217,7 +4217,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">161.6</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4296,7 +4296,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 6 - Imported Dog - Neutered (use desexed price)</rawValue>
+            <rawValue class="string">Test 6 - Imported Dog - Neutered (use desexed price) (changed actualregistrationdate)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4373,7 +4373,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2020-08-6&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2019-08-06&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4395,7 +4395,7 @@
               <name>1|9</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-08-6&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-08-06&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4461,7 +4461,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-07-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2021-08-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4527,7 +4527,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -4549,7 +4549,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">117.1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5213,7 +5213,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">106.7</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -5244,7 +5244,7 @@
               <name>1|26</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">106.70</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7007,7 +7007,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7117,7 +7117,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-07-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2020-09-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7172,7 +7172,7 @@
               <name>1|20</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7183,7 +7183,7 @@
               <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7205,7 +7205,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">147.2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7247,7 +7247,7 @@
               <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7339,7 +7339,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7493,7 +7493,7 @@
               <name>1|19</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">147.2</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7526,7 +7526,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7537,7 +7537,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">264</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -7579,7 +7579,7 @@
               <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">176</rawValue>
+            <rawValue class="string">264</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
