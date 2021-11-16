@@ -127,11 +127,21 @@ else
         StandardCalc
       else
         if 
-          DesexDiscount != null
+          DesexDiscount
         then
           DesexDiscount
         else
-          0
+          if
+            AdoptedThisYear
+          then
+            AdoptedCalc
+          else
+            if
+              ImportedThisYear
+            then
+              ImportedCalc
+            else
+              PuppyCalc
 
 
 
