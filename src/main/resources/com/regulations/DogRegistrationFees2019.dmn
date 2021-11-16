@@ -126,7 +126,12 @@ else
       then
         StandardCalc
       else
-        0
+        if 
+          DesexDiscount != null
+        then
+          DesexDiscount
+        else
+          0
 
 
 
