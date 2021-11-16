@@ -126,10 +126,8 @@ else
       then
         (
           if 
-            not(DesexDiscount = null)
+            DesexDiscount = null
           then
-            DesexDiscount
-          else
             if
               AdoptedThisYear
             then
@@ -141,7 +139,8 @@ else
                 ImportedCalc
               else
                 PuppyCalc
-            
+          else
+            DesexDiscount
         )
       else
         StandardCalc
