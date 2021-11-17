@@ -261,7 +261,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>138.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -10017,7 +10017,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2011-02-01&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-02-01&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10182,7 +10182,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10393,7 +10393,7 @@
               <name>1|11</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">date(&quot;2021-04-30&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10725,7 +10725,7 @@
               <name>1|11</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">date(&quot;2021-04-30&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -11057,7 +11057,7 @@
               <name>1|11</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">date(&quot;2021-04-30&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -11389,7 +11389,7 @@
               <name>1|11</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">date(&quot;2021-04-30&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -12838,7 +12838,7 @@
               <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
