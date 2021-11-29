@@ -15879,7 +15879,7 @@
               <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">264</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -15916,7 +15916,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 28 - Transfer In Current registration Lapsed and Desexed</rawValue>
+            <rawValue class="string">Test 32- Transfer In Current registration Lapsed and Desexed</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -16248,7 +16248,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 29 - Transfer In Current registration Lapsed and RDO</rawValue>
+            <rawValue class="string">Test 33 - Transfer In Current registration Lapsed and RDO</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -16580,7 +16580,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 30 - Transfer In Current registration Lapsed,Neutered and Dangerous</rawValue>
+            <rawValue class="string">Test 34 - Transfer In Current registration Lapsed,Neutered and Dangerous</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -16912,7 +16912,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 30 - Transfer In Current registration Lapsed, Non-Neutered and Dangerous</rawValue>
+            <rawValue class="string">Test 35 - Transfer In Current registration Lapsed, Non-Neutered and Dangerous</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -17244,7 +17244,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Test 29 - Transfer In not currently registration Lapsed - May</rawValue>
+            <rawValue class="string">Test 36 - Transfer In not currently registration Lapsed - May</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -17620,7 +17620,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -17653,7 +17653,7 @@
               <name>1|7</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-04-19&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2020-12-19&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -17708,7 +17708,7 @@
               <name>1|12</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">date(&quot;2021-08-31&quot;)</rawValue>
+            <rawValue class="string">date(&quot;2021-04-31&quot;)</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -17741,7 +17741,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-08-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2021-04-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
