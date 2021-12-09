@@ -222,7 +222,9 @@ else
 
 
   </dmn:text></dmn:literalExpression></dmn:decision><dmn:businessKnowledgeModel id="_5ACC2E58-4A8F-4C56-9E16-1D4778AD7F51" name="PushingNextYear"><dmn:extensionElements/><dmn:variable id="_41D6A872-75D7-49F1-AF07-AEB1A7A982FE" name="PushingNextYear" typeRef="boolean"/><dmn:encapsulatedLogic id="_D2041F71-C1E3-42D7-BEF4-0BC9E3288B2C" kind="FEEL"><dmn:formalParameter id="_56B7676A-093E-49B1-BE66-9BA21C1E1420" name="regdate" typeRef="date"/><dmn:formalParameter id="_2A9A3F03-8098-4AB4-97E9-8CFB181BBAEF" name="applicableyear" typeRef="number"/><dmn:literalExpression id="_231DFE84-97AA-4F23-9291-5282079857FB"><dmn:text>if
-  regdate.month &gt;= 5 and regdate.month &lt;= 6
+  applicableyear = regdate.year-1 and 
+  regdate.month &gt;= 5 and 
+  regdate.month &lt;= 6
 then
   true
 else
