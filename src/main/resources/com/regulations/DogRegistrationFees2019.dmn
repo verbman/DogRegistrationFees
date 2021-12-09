@@ -78,12 +78,7 @@ then
   then
     PuppyAndImported(ActualRegistrationDate.month, OwnerRDO)
   else
-    if
-      ( DogDOB.month + 4 ) &gt; 12
-    then
-      PuppyAndImported(DogDOB.month - 8, OwnerRDO)
-    else
-      PuppyAndImported(DogDOB.month + 4, OwnerRDO)
+    PuppyAndImported((DogDOB + duration("P0Y4M0D")).month, OwnerRDO)
 else
   null
 
