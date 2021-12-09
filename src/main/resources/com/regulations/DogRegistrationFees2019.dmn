@@ -21,7 +21,7 @@ then
         then
           date(ApplicableYear+1, 7, 1)
         else
-          DogDOB + duration("P0Y4M0D")
+          date((DogDOB + duration("P0Y4M0D")).year, (DogDOB + duration("P0Y4M0D")).month, 1)
 else
   date(ApplicableYear, 7, 1)
 
