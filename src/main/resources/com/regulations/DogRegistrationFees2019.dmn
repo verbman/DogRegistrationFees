@@ -224,6 +224,7 @@ then
     if
       ( PossessionDate.month + 4 ) &gt; 12
     then
+      PossessionDate + duration("-P0Y4M0D")
       PuppyAndImported(PossessionDate.month - 8, OwnerRDO)
     else
       PuppyAndImported(PossessionDate.month + 4, OwnerRDO)
