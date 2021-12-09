@@ -17,16 +17,11 @@ then
         date(PossessionDate.year, PossessionDate.month, 1)
       else
         if
-          (DogDOB.month+4) &gt; 12
+          PushingNextYear( DogDOB + duration("P0Y4M0D"), ApplicableYear )
         then
-          date(DogDOB.year+1, DogDOB.month-8, 1)
+          date(ApplicableYear+1, 7, 1)
         else
-          if
-            PushingNextYear( date(DogDOB.year, DogDOB.month+4, 1), ApplicableYear )
-          then
-            date(ApplicableYear+1, 7, 1)
-          else
-            date(DogDOB.year, DogDOB.month+4, 1)
+          DogDOB + duration("P0Y4M0D")
 else
   date(ApplicableYear, 7, 1)
 
