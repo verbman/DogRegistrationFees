@@ -209,9 +209,9 @@ then
   if
     PushingNextYear(ActualRegistrationDate, ApplicableYear) 
   then
-    1.1
+    PuppyAndImported(ActualRegistrationDate.month, OwnerRDO)
   else
-    1.2
+    PuppyAndImported((PossessionDate + duration("P0Y4M0D")).month, OwnerRDO)
 else
   null
 
