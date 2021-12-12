@@ -53,10 +53,10 @@ else
 
 
   </dmn:text></dmn:literalExpression></dmn:decision><dmn:decision id="_818DDC22-EB3C-4135-B85D-D2392EDAA44B" name="LateRegistration"><dmn:extensionElements/><dmn:variable id="_2F2CD511-9696-4D40-9898-89834D68A385" name="LateRegistration" typeRef="boolean"/><dmn:informationRequirement id="_2AB6E920-9497-4702-89D1-EEE2386A28A2"><dmn:requiredInput href="#_9597D4C0-2429-4EFB-A9DC-F1FB896F1FB7"/></dmn:informationRequirement><dmn:informationRequirement id="_E8E48C11-BF11-4E02-95EC-F6455EB39C01"><dmn:requiredInput href="#_851AA7F6-E86C-4F36-BAFB-09DB53F6C8C9"/></dmn:informationRequirement><dmn:informationRequirement id="_AEF14964-94D0-472B-9A9A-272FECBBAFCB"><dmn:requiredDecision href="#_4A6A8695-58DE-4A56-8514-32D74A6F6F86"/></dmn:informationRequirement><dmn:literalExpression id="_C6C4EA16-9D3D-4E49-BDDA-37372D9C4AB0"><dmn:text>(
-  ActualRegistrationDate &gt; RegistrationDate and 
+  ActualRegistrationDate &lt; RegistrationDate and 
   (
-    (ActualRegistrationDate.year = RegistrationDate.year and ActualRegistrationDate.month &gt; RegistrationDate.month) or
-    ActualRegistrationDate.year &gt; RegistrationDate.year
+    (ActualRegistrationDate.year = RegistrationDate.year and ActualRegistrationDate.month &lt; RegistrationDate.month) or
+    ActualRegistrationDate.year &lt; RegistrationDate.year
   )
 )
 
