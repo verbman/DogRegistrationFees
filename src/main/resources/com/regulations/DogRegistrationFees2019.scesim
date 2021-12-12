@@ -10525,7 +10525,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">80.25</rawValue>
+            <rawValue class="string">37.1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10578,7 +10578,7 @@
               <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">80.25</rawValue>
+            <rawValue class="string">37.1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -10857,7 +10857,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -10910,7 +10910,7 @@
               <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -11189,7 +11189,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -11242,7 +11242,7 @@
               <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -11521,7 +11521,7 @@
               <name>1|23</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -11574,7 +11574,7 @@
               <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">53.5</rawValue>
+            <rawValue class="string">28</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
