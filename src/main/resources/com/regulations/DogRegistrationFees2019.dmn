@@ -17,7 +17,7 @@ then
         date(date(PossessionDate).year, date(PossessionDate).month, 1)
       else
         if
-          PushingNextYear( date(DogDOB) + duration("P0Y4M0D"), ApplicableYear )
+          PushingNextYear((date(DogDOB) + duration("P0Y4M0D")), ApplicableYear )
         then
           date(ApplicableYear+1, 7, 1)
         else
