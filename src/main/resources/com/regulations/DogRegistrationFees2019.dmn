@@ -4,7 +4,7 @@ then
   if
     AdoptedThisYear
   then
-    date(AdoptionDate.year, AdoptionDate.month, 1)
+    date(date(AdoptionDate).year, date(AdoptionDate).month, 1)
   else
     if
       ImportedThisYear
@@ -104,7 +104,7 @@ else
   </dmn:text></dmn:literalExpression></dmn:decision><dmn:inputData id="_FC76ABA3-934D-450C-BF63-FA269D747122" name="TransferIn"><dmn:extensionElements/><dmn:variable id="_AB077CA0-B998-4B8A-80F0-745ED21E255B" name="TransferIn" typeRef="boolean"/></dmn:inputData><dmn:decision id="_F13E2B5E-8820-4DD5-9FB8-D7F017B7D26C" name="AdoptedCalc"><dmn:extensionElements/><dmn:variable id="_C1139A16-6E1D-4D18-B255-0D740E4E1B61" name="AdoptedCalc" typeRef="number"/><dmn:informationRequirement id="_AFA499EC-239E-462A-9366-BF20C68B84FA"><dmn:requiredDecision href="#_6C3ADB62-F64F-4DC9-9F9F-AAF2EBC52B1B"/></dmn:informationRequirement><dmn:informationRequirement id="_6B4CE7C5-4BCE-484F-9D39-EB9B0D4F02CF"><dmn:requiredInput href="#_84FAE929-24E7-4559-B0CA-F66CADFD6E3B"/></dmn:informationRequirement><dmn:knowledgeRequirement id="_8D5FCCBA-63A4-4B95-AB32-CFA97AEEE957"><dmn:requiredKnowledge href="#_66957D27-FA7D-422B-95B0-7D455C9003FC"/></dmn:knowledgeRequirement><dmn:literalExpression id="_A26601F8-6334-41BD-9641-7191D9F0F621"><dmn:text>if
   AdoptedThisYear
 then
-  Adopted(AdoptionDate.month)
+  Adopted(date(AdoptionDate).month)
 else
   null
 
