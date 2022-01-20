@@ -15505,7 +15505,7 @@
               <name>1|15</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">date( &quot;2021-04-01&quot; )</rawValue>
+            <rawValue class="string">date( &quot;2021-02-01&quot; )</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
