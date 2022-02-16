@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.regulations</groupId>
   <artifactId>DogRegistrationFees</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>Dog Registration Fees</name>
   <description></description>
