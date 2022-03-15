@@ -133,15 +133,15 @@ else
       then
         StandardCalc
       else
-        if 
-          DesexCalc != null
+        if
+          AdoptedThisYear
         then
-          DesexCalc
+          AdoptedCalc
         else
-          if
-            AdoptedThisYear
+          if 
+            DesexCalc != null
           then
-            AdoptedCalc
+            DesexCalc
           else
             if
               ImportedThisYear
