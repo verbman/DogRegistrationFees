@@ -18298,7 +18298,7 @@
               <name>1|26</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">33.9</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
