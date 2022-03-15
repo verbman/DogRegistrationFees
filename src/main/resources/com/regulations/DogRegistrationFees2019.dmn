@@ -227,7 +227,7 @@ else
   applicableyear = actualregdate.year-1 and 
   actualregdate.month &gt;= 5 and actualregdate.month &lt;= 6 and
   applicableyear = regdate.year-1 and 
-  regdate.month &gt;= 5 and regdate.month &lt;= 6 and
+  regdate.month &gt;= 5 and regdate.month &lt;= 6
 then
   true
 else
