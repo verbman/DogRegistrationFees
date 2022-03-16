@@ -2,7 +2,7 @@
   InitialRegistration
 then
   if
-    AdoptedThisYear and date(AdoptionDate) &lt; (date(DogDOB) + duration("P0Y4M0D"))
+    AdoptedThisYear and date(AdoptionDate) &gt; (date(DogDOB) + duration("P0Y4M0D"))
   then
     date(date(AdoptionDate).year, date(AdoptionDate).month, 1)
   else
