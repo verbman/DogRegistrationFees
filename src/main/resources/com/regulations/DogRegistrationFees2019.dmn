@@ -74,7 +74,6 @@ else
   ActualRegistrationDate != null and 
   not(ImportedThisYear) and 
   not(AdoptedThisYear) and
-  not(Desexed) and
   not(Working) and
   not(PossessedThisYear)
 then
